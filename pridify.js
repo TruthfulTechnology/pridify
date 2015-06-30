@@ -34,6 +34,9 @@ function throttle(func, threshhold) {
 
 function pridifyImage(image) {
   var prideGradients = 'linear-gradient(to bottom, rgba(255, 62, 24, 0.5), rgba(255, 62, 24, 0.5) 16.666%, rgba(252, 154, 0, 0.5) 16.666%, rgba(252, 154, 0, 0.5) 33.333%, rgba(255, 216, 0, 0.5) 33.333%, rgba(255, 216, 0, 0.5) 50%, rgba(57, 234, 124, 0.5) 50%, rgba(57, 234, 124, 0.5) 66.666%, rgba(11, 178, 255, 0.5) 66.666%, rgba(11, 178, 255, 0.5) 83.333%, rgba(152, 90, 255, 0.5) 83.333%, rgba(152, 90, 255, 0.5))';
+  if (image.src.indexOf('data:image/') != -1) {
+    return;
+  }
   image.style.backgroundImage = prideGradients + ', url(URL)'.replace(/URL/, image.src);
   image.style.backgroundSize = 'cover';
   image.src = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
