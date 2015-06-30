@@ -4,6 +4,8 @@ var selectors = [
   'img[src$="/photo.jpg"]',
   'img[src*="_/focus/photos/private/"]',
   'img[src*="gravatar.com/avatar/"]',
+  'img[src*=".deviantart.net/avatars/"]',
+  'img[src^="http://avatars-d.ravelrycache.com/"]',
 ];
 
 // Based on https://remysharp.com/2010/07/21/throttling-function-calls

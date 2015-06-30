@@ -13,7 +13,9 @@
         "https://www.facebook.com/*",
         "https://twitter.com/*",
         "https://*.google.com/*",
-        "https://stackoverflow.com/*"
+        "https://stackoverflow.com/*",
+        "*://*.deviantart.com/*",
+        "http://www.ravelry.com/*"
       ],
       "js": ["pridify.js"]
     }
@@ -23,6 +25,8 @@
     "https://www.facebook.com/*",
     "https://twitter.com/*",
     "https://*.google.com/*",
-    "https://stackoverflow.com/*"
+    "https://stackoverflow.com/*",
+    "*://*.deviantart.com/*",
+    "http://www.ravelry.com/*"
   ]
 }
