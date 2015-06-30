@@ -4,6 +4,7 @@ var selectors = [
   'img[src*=".twimg.com/profile_images/"]',
   'img[src$="/photo.jpg"]',
   'img[src*="_/focus/photos/private/"]',
+  'div[class^="gravatar-wrapper"] > img',
   'img[src*="gravatar.com/avatar/"]',
   'img[src*=".deviantart.net/avatars/"]',
   'img[src^="http://avatars-d.ravelrycache.com/"]',
