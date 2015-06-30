@@ -1,6 +1,9 @@
 var selectors = [
   'img[src^="https://fbcdn-profile"]',
   'img[src*=".twimg.com/profile_images/"]',
+  'img[src$="/photo.jpg"]',
+  'img[src*="_/focus/photos/private/"]',
+  'img[src*="gravatar.com/avatar/"]',
 ];
 
 // Based on https://remysharp.com/2010/07/21/throttling-function-calls

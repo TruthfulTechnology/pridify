@@ -8,9 +8,12 @@
 
   "content_scripts": [
     {
+      "all_frames": true,
       "matches": [
         "https://www.facebook.com/*",
-        "https://twitter.com/*"
+        "https://twitter.com/*",
+        "https://*.google.com/*",
+        "https://stackoverflow.com/*"
       ],
       "js": ["pridify.js"]
     }
@@ -18,6 +21,8 @@
   "permissions": [
     "tabs",
     "https://www.facebook.com/*",
-    "https://twitter.com/*"
+    "https://twitter.com/*",
+    "https://*.google.com/*",
+    "https://stackoverflow.com/*"
   ]
 }
