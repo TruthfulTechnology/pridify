@@ -1,5 +1,6 @@
 var selectors = [
   'img[src^="https://fbcdn-profile"]',
+  'img[src*="fbcdn.net/hprofile-"]',
   'img[src*=".twimg.com/profile_images/"]',
   'img[src$="/photo.jpg"]',
   'img[src*="_/focus/photos/private/"]',
