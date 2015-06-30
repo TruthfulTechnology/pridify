@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Pridify",
+  "description": "Apply a pride filter to avatar images on popular websites.",
+  "icons": { "128": "icon.png" },
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.facebook.com/*",
+        "https://twitter.com/*"
+      ],
+      "js": ["pridify.js"]
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "https://www.facebook.com/*",
+    "https://twitter.com/*"
+  ]
+}
